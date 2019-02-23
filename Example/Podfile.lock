@@ -1,0 +1,16 @@
+PODS:
+  - BHTencentOpenAPI (1.0.0)
+
+DEPENDENCIES:
+  - BHTencentOpenAPI (from `../`)
+
+EXTERNAL SOURCES:
+  BHTencentOpenAPI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BHTencentOpenAPI: eb1975ba311022c5c8f3549595652916bdde3cd3
+
+PODFILE CHECKSUM: 9dccdeb794099b0b7cfff5b1c8e7235b946e074d
+
+COCOAPODS: 1.4.0
