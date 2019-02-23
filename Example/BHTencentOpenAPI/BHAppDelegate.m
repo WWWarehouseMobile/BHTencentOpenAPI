@@ -8,6 +8,8 @@
 
 #import "BHAppDelegate.h"
 
+#import <BHTencentOpenAPI/TencentOpenAPI/TencentOAuth.h>
+
 @implementation BHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

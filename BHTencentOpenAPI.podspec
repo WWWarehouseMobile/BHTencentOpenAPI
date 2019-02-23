@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Hjay/BHTencentOpenAPI'
+  s.homepage         = 'https://github.com/WWWarehouseMobile/BHTencentOpenAPI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hjay' => '18622995206@163.com' }
   s.source           = { :git => 'git@github.com:WWWarehouseMobile/BHTencentOpenAPI.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.ios.vendored_frameworks = 'BHTencentOpenAPI/Lib/TencentOpenAPI.framework'
-
+  s.framework = 'SystemConfiguration'
 end

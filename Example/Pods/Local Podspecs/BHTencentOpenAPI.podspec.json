@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "TencentOpenAPI.frameWork",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Hjay/BHTencentOpenAPI",
+  "homepage": "https://github.com/WWWarehouseMobile/BHTencentOpenAPI",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -20,5 +20,6 @@
   },
   "ios": {
     "vendored_frameworks": "BHTencentOpenAPI/Lib/TencentOpenAPI.framework"
-  }
+  },
+  "frameworks": "SystemConfiguration"
 }
