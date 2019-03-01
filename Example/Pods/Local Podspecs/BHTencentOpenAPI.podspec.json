@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
+  "source_files": "BHTencentOpenAPI/Classes/*.h",
   "ios": {
     "vendored_frameworks": "BHTencentOpenAPI/Lib/TencentOpenAPI.framework"
   },

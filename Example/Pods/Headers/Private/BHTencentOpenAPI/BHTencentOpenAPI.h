@@ -1,0 +1,1 @@
+../../../../../BHTencentOpenAPI/Classes/BHTencentOpenAPI.h

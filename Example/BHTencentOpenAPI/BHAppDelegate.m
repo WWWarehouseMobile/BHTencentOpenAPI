@@ -8,12 +8,15 @@
 
 #import "BHAppDelegate.h"
 
+#import <BHTencentOpenAPI/BHTencentOpenAPI.h>
+
 #import <BHTencentOpenAPI/TencentOpenAPI/TencentOAuth.h>
 
 @implementation BHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     // Override point for customization after application launch.
     return YES;
 }
