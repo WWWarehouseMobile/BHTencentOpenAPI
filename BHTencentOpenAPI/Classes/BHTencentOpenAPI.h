@@ -2,7 +2,7 @@
 //  BHTencentOpenAPI.h
 //  Pods
 //
-//  Created by 谢豪杰 on 2019/3/1.
+//  Created by 詹学宝 on 2019/9/9.
 //
 
 #ifndef BHTencentOpenAPI_h

@@ -1,1 +1,0 @@
-../../../../../../BHTencentOpenAPI/Lib/TencentOpenAPI.framework/Headers/sdkdef.h

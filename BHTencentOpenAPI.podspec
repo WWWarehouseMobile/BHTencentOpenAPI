@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BHTencentOpenAPI'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'TencentOpenAPI.frameWork'
 
 
@@ -22,7 +22,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:WWWarehouseMobile/BHTencentOpenAPI.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   
-  s.source_files = 'BHTencentOpenAPI/Classes/*.h'
+  s.source_files = 'BHTencentOpenAPI/Classes/*'
+  #s.public_header_files = 'BHTencentOpenAPI/Classes/**/*.h'
   s.ios.vendored_frameworks = 'BHTencentOpenAPI/Lib/TencentOpenAPI.framework'
   s.framework = 'SystemConfiguration'
+  s.xcconfig = { "OTHER_LDFLAGS" => "$(OTHER_LDFLAGS) -ObjC" }
 end

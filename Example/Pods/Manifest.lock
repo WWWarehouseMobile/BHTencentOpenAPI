@@ -1,16 +1,16 @@
 PODS:
-  - BHTencentOpenAPI (1.0.0)
+  - BHTencentOpenAPI (1.0.2)
 
 DEPENDENCIES:
   - BHTencentOpenAPI (from `../`)
 
 EXTERNAL SOURCES:
   BHTencentOpenAPI:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  BHTencentOpenAPI: a8163d87f8761233e703de10864357a2131ce066
+  BHTencentOpenAPI: 62263189abdb6152fcf704af6e37e28e52cac00c
 
 PODFILE CHECKSUM: ef308774b83f70d503b6e80e43d91b123fa7ef4b
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.7.1

@@ -7,44 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F69B37ECE03C775C02AEAEF912E97B2 /* Pods-BHTencentOpenAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802299E48B0B3F1D0792C09A0611543D /* Pods-BHTencentOpenAPI_Example-dummy.m */; };
-		ED1500F3D685C505A5793C74A011B327 /* Pods-BHTencentOpenAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76BB8D5D5508C9C50991E430526FCAE /* Pods-BHTencentOpenAPI_Tests-dummy.m */; };
+		4C1641ED25CD197C14A1286B4EEAD1A1 /* Pods-BHTencentOpenAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F307CF5FEBB40631D47601913C0FAFA /* Pods-BHTencentOpenAPI_Tests-dummy.m */; };
+		54499D0F28E90E4B73F679C238601A37 /* BHTencentOpenAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC3734DAC83488B5F1851099A95855 /* BHTencentOpenAPI-dummy.m */; };
+		B3B9D0570EEEC751DF71BAF3C1A5D887 /* Pods-BHTencentOpenAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393A11CE3E3BBD5A0A0BA8AD1F9A6A76 /* Pods-BHTencentOpenAPI_Example-dummy.m */; };
+		D1B27909E95F3019458F88191F22D04B /* BHTencentOpenAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E733EF89695202C4E896A62D49CD4527 /* BHTencentOpenAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		662E88BD3AE1F266ECCCBB6478DA2CE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C33CAF5A477CCDBF38DBC816AFDE52A;
+			remoteInfo = "Pods-BHTencentOpenAPI_Example";
+		};
+		8A30FB20D614D13909FF3531414C2205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8FCFB8274165860BD531E89D6EF4E4;
+			remoteInfo = BHTencentOpenAPI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0DCE50480DB512F29E4DCCF9DD5646CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		19C4B94082A9E806D6378243909CE51E /* Pods-BHTencentOpenAPI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHTencentOpenAPI_Tests-resources.sh"; sourceTree = "<group>"; };
-		2CE8D6CB8D4034426FE03CA338C21B37 /* Pods-BHTencentOpenAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHTencentOpenAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B9AC49A03A52A2EE939840EB24E37D3 /* Pods-BHTencentOpenAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHTencentOpenAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6056557616808DBC15B699A1E88DC1C8 /* Pods-BHTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		69773D1B65A72D2CE7D77FAC7B604E7A /* Pods-BHTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6BDF0F5AEDEC72F2E8E438D1FA8CB46B /* BHTencentOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTencentOpenAPI.h; path = BHTencentOpenAPI/Classes/BHTencentOpenAPI.h; sourceTree = "<group>"; };
-		706D56D5CEC8F94CCC0366C1D209357B /* Pods-BHTencentOpenAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHTencentOpenAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		72CAD296C54975B780134335999AF23E /* BHTencentOpenAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BHTencentOpenAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		802299E48B0B3F1D0792C09A0611543D /* Pods-BHTencentOpenAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHTencentOpenAPI_Example-dummy.m"; sourceTree = "<group>"; };
-		909D293C83EB29809B3E0A0C53DB3121 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9ACD940F635AC25E387EDBBFDAC1D063 /* libPods-BHTencentOpenAPI_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BHTencentOpenAPI_Example.a"; path = "libPods-BHTencentOpenAPI_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA40B1647E7D6FF9CCA2010C49EE43E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C395A4D6FA2BA556A55919A4326545DD /* Pods-BHTencentOpenAPI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHTencentOpenAPI_Example-resources.sh"; sourceTree = "<group>"; };
-		D76BB8D5D5508C9C50991E430526FCAE /* Pods-BHTencentOpenAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHTencentOpenAPI_Tests-dummy.m"; sourceTree = "<group>"; };
-		D9627EFA61AA9690AFD2CF73F5A311A2 /* Pods-BHTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DAD882A71862D9D37D64B56458810620 /* Pods-BHTencentOpenAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHTencentOpenAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DEB17AE60149E01640C3D7747D6112F2 /* libPods-BHTencentOpenAPI_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BHTencentOpenAPI_Tests.a"; path = "libPods-BHTencentOpenAPI_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D9E54ABEBE47BFF55BA0AA5ED6D640 /* Pods-BHTencentOpenAPI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHTencentOpenAPI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E4C997D011E76675A66C08DDA013629E /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = BHTencentOpenAPI/Lib/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		F38129EAC24ED5E1859F27A453091285 /* Pods-BHTencentOpenAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHTencentOpenAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		00D5CB758BC855B9ADA3CB39E0D2FB90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0931369FC2198297B7602C6ED0677142 /* Pods-BHTencentOpenAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2760C1F973E7B1334C572569744CF9E2 /* BHTencentOpenAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHTencentOpenAPI-prefix.pch"; sourceTree = "<group>"; };
+		393A11CE3E3BBD5A0A0BA8AD1F9A6A76 /* Pods-BHTencentOpenAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHTencentOpenAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		402324ABD9A5A04A28505474E7201AD4 /* libPods-BHTencentOpenAPI_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHTencentOpenAPI_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D401354FDAEEFE2CB3BC910B404E12E /* libBHTencentOpenAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBHTencentOpenAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B676DCC6C3E7211E81D8928EBA4F89 /* Pods-BHTencentOpenAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHTencentOpenAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A677E2B700D7BBFAF3321C387D0D5A8 /* libPods-BHTencentOpenAPI_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHTencentOpenAPI_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHTencentOpenAPI.xcconfig; sourceTree = "<group>"; };
+		7F307CF5FEBB40631D47601913C0FAFA /* Pods-BHTencentOpenAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHTencentOpenAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		80F20E6FE2055C691448C5A8C1BF9A49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4C76539A7DDBA4464D5F3DA285C75A3 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = BHTencentOpenAPI/Lib/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		B4525BA04021A045A36F4B0F72F79A0F /* Pods-BHTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C58129FE86F00FAD794A6752DBB87E68 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C91E4D91CB57F52990937FC309C188A8 /* Pods-BHTencentOpenAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHTencentOpenAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDCACB999F05561A2236919FA3D9FDF /* Pods-BHTencentOpenAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHTencentOpenAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9EC3734DAC83488B5F1851099A95855 /* BHTencentOpenAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHTencentOpenAPI-dummy.m"; sourceTree = "<group>"; };
+		DF69818C26B05B89EECDFEDFAB99AA0C /* BHTencentOpenAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BHTencentOpenAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E733EF89695202C4E896A62D49CD4527 /* BHTencentOpenAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTencentOpenAPI.h; path = BHTencentOpenAPI/Classes/BHTencentOpenAPI.h; sourceTree = "<group>"; };
+		EF2D20626E175F47F664F0EE5F3E557D /* Pods-BHTencentOpenAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHTencentOpenAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F33B575F3AA78D6DDB1122A1C12D9F8B /* Pods-BHTencentOpenAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHTencentOpenAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8CA4EA2918B949EFB87CDA7BB8DA70AE /* Frameworks */ = {
+		02ACB53656F21DF4F82EC834179C9A08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC6ACC39EF0A1384BC3932E7971C00EE /* Frameworks */ = {
+		741C66AF8ADB9C2F6DDA807C35B92E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFD3E67F9CD1B5DB592DF135E46C06F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,120 +80,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		0BFA16BC79E1FBBFE1C42849CDFDC735 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4C76539A7DDBA4464D5F3DA285C75A3 /* TencentOpenAPI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		27FE5AF7E9636754ECA43C870A68D67B /* Frameworks */ = {
+		17F150B03EA49E3B4F1F54BBCCD8B4EC /* Pods-BHTencentOpenAPI_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E4C997D011E76675A66C08DDA013629E /* TencentOpenAPI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		320543853D6A44346936F20614BFC96E /* Pods-BHTencentOpenAPI_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F38129EAC24ED5E1859F27A453091285 /* Pods-BHTencentOpenAPI_Tests-acknowledgements.markdown */,
-				2CE8D6CB8D4034426FE03CA338C21B37 /* Pods-BHTencentOpenAPI_Tests-acknowledgements.plist */,
-				D76BB8D5D5508C9C50991E430526FCAE /* Pods-BHTencentOpenAPI_Tests-dummy.m */,
-				E2D9E54ABEBE47BFF55BA0AA5ED6D640 /* Pods-BHTencentOpenAPI_Tests-frameworks.sh */,
-				19C4B94082A9E806D6378243909CE51E /* Pods-BHTencentOpenAPI_Tests-resources.sh */,
-				909D293C83EB29809B3E0A0C53DB3121 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */,
-				D9627EFA61AA9690AFD2CF73F5A311A2 /* Pods-BHTencentOpenAPI_Tests.release.xcconfig */,
+				EF2D20626E175F47F664F0EE5F3E557D /* Pods-BHTencentOpenAPI_Tests-acknowledgements.markdown */,
+				59B676DCC6C3E7211E81D8928EBA4F89 /* Pods-BHTencentOpenAPI_Tests-acknowledgements.plist */,
+				7F307CF5FEBB40631D47601913C0FAFA /* Pods-BHTencentOpenAPI_Tests-dummy.m */,
+				C58129FE86F00FAD794A6752DBB87E68 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */,
+				B4525BA04021A045A36F4B0F72F79A0F /* Pods-BHTencentOpenAPI_Tests.release.xcconfig */,
 			);
 			name = "Pods-BHTencentOpenAPI_Tests";
 			path = "Target Support Files/Pods-BHTencentOpenAPI_Tests";
 			sourceTree = "<group>";
 		};
-		3FBFC754CED6551D0384D421605D9780 /* Development Pods */ = {
+		354217A280748109B13B62D769D394EA /* Pods-BHTencentOpenAPI_Example */ = {
 			isa = PBXGroup;
 			children = (
-				8E3BDEAD810B5EA51BE1EA9D4F18CAEF /* BHTencentOpenAPI */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5B9E0294DCA4EDF9FB5644FB69980A67 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9ACD940F635AC25E387EDBBFDAC1D063 /* libPods-BHTencentOpenAPI_Example.a */,
-				DEB17AE60149E01640C3D7747D6112F2 /* libPods-BHTencentOpenAPI_Tests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6E0920CB3DB57608FACAA6347D5F0555 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				78654E510FB81667E816075878B6FB36 /* Pods-BHTencentOpenAPI_Example */,
-				320543853D6A44346936F20614BFC96E /* Pods-BHTencentOpenAPI_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		78654E510FB81667E816075878B6FB36 /* Pods-BHTencentOpenAPI_Example */ = {
-			isa = PBXGroup;
-			children = (
-				4B9AC49A03A52A2EE939840EB24E37D3 /* Pods-BHTencentOpenAPI_Example-acknowledgements.markdown */,
-				706D56D5CEC8F94CCC0366C1D209357B /* Pods-BHTencentOpenAPI_Example-acknowledgements.plist */,
-				802299E48B0B3F1D0792C09A0611543D /* Pods-BHTencentOpenAPI_Example-dummy.m */,
-				DAD882A71862D9D37D64B56458810620 /* Pods-BHTencentOpenAPI_Example-frameworks.sh */,
-				C395A4D6FA2BA556A55919A4326545DD /* Pods-BHTencentOpenAPI_Example-resources.sh */,
-				6056557616808DBC15B699A1E88DC1C8 /* Pods-BHTencentOpenAPI_Example.debug.xcconfig */,
-				69773D1B65A72D2CE7D77FAC7B604E7A /* Pods-BHTencentOpenAPI_Example.release.xcconfig */,
+				CEDCACB999F05561A2236919FA3D9FDF /* Pods-BHTencentOpenAPI_Example-acknowledgements.markdown */,
+				F33B575F3AA78D6DDB1122A1C12D9F8B /* Pods-BHTencentOpenAPI_Example-acknowledgements.plist */,
+				393A11CE3E3BBD5A0A0BA8AD1F9A6A76 /* Pods-BHTencentOpenAPI_Example-dummy.m */,
+				C91E4D91CB57F52990937FC309C188A8 /* Pods-BHTencentOpenAPI_Example.debug.xcconfig */,
+				0931369FC2198297B7602C6ED0677142 /* Pods-BHTencentOpenAPI_Example.release.xcconfig */,
 			);
 			name = "Pods-BHTencentOpenAPI_Example";
 			path = "Target Support Files/Pods-BHTencentOpenAPI_Example";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		47803BAF0E0FB535C742371A32B3B0EA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3FBFC754CED6551D0384D421605D9780 /* Development Pods */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				5B9E0294DCA4EDF9FB5644FB69980A67 /* Products */,
-				6E0920CB3DB57608FACAA6347D5F0555 /* Targets Support Files */,
+				7FAD7873085E4B99A967454A2ADF293E /* BHTencentOpenAPI */,
 			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8E3BDEAD810B5EA51BE1EA9D4F18CAEF /* BHTencentOpenAPI */ = {
+		553CA6256CCFB5A11250485F7B067034 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BDF0F5AEDEC72F2E8E438D1FA8CB46B /* BHTencentOpenAPI.h */,
-				27FE5AF7E9636754ECA43C870A68D67B /* Frameworks */,
-				9E1E216AC6BE212ED9330C307F24DE8E /* Pod */,
+				4D401354FDAEEFE2CB3BC910B404E12E /* libBHTencentOpenAPI.a */,
+				5A677E2B700D7BBFAF3321C387D0D5A8 /* libPods-BHTencentOpenAPI_Example.a */,
+				402324ABD9A5A04A28505474E7201AD4 /* libPods-BHTencentOpenAPI_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAD7873085E4B99A967454A2ADF293E /* BHTencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E733EF89695202C4E896A62D49CD4527 /* BHTencentOpenAPI.h */,
+				0BFA16BC79E1FBBFE1C42849CDFDC735 /* Frameworks */,
+				8F2C96545ED97DED0F88FED4B05BAC9A /* Pod */,
+				903E7D387DB1A5A0F0F1F6153205AA59 /* Support Files */,
 			);
 			name = BHTencentOpenAPI;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9E1E216AC6BE212ED9330C307F24DE8E /* Pod */ = {
+		8E1509FCFB9AC19C83B51A8629AE00EA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				72CAD296C54975B780134335999AF23E /* BHTencentOpenAPI.podspec */,
-				AA40B1647E7D6FF9CCA2010C49EE43E0 /* LICENSE */,
-				0DCE50480DB512F29E4DCCF9DD5646CE /* README.md */,
+				354217A280748109B13B62D769D394EA /* Pods-BHTencentOpenAPI_Example */,
+				17F150B03EA49E3B4F1F54BBCCD8B4EC /* Pods-BHTencentOpenAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F2C96545ED97DED0F88FED4B05BAC9A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF69818C26B05B89EECDFEDFAB99AA0C /* BHTencentOpenAPI.podspec */,
+				80F20E6FE2055C691448C5A8C1BF9A49 /* LICENSE */,
+				00D5CB758BC855B9ADA3CB39E0D2FB90 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		903E7D387DB1A5A0F0F1F6153205AA59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */,
+				D9EC3734DAC83488B5F1851099A95855 /* BHTencentOpenAPI-dummy.m */,
+				2760C1F973E7B1334C572569744CF9E2 /* BHTencentOpenAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BHTencentOpenAPI";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				47803BAF0E0FB535C742371A32B3B0EA /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				553CA6256CCFB5A11250485F7B067034 /* Products */,
+				8E1509FCFB9AC19C83B51A8629AE00EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		234E92EC650FD4FA5A794A3B4B5F0730 /* Headers */ = {
+		752B3A4B3C4030DC75AEABEB0F096320 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D306EA578929F405E715007659A0A524 /* Headers */ = {
+		7E4DF486BB81942B655BF6B564ED8635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B27909E95F3019458F88191F22D04B /* BHTencentOpenAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA46F5C149F30E3885882E9EB3130AE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,91 +220,135 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E6CA0F2E4EF42FC9DA775122E1FF6D2E /* Pods-BHTencentOpenAPI_Tests */ = {
+		67165D27E5D18FDC1BA2888774DB369D /* Pods-BHTencentOpenAPI_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C31588E6BC9A37DA0705468769165694 /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Tests" */;
+			buildConfigurationList = 83847207273B0760B9D1A35910C0A6B9 /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Tests" */;
 			buildPhases = (
-				D306EA578929F405E715007659A0A524 /* Headers */,
-				0D3C80AD9B64652DD6A0F068D51B3341 /* Sources */,
-				8CA4EA2918B949EFB87CDA7BB8DA70AE /* Frameworks */,
+				752B3A4B3C4030DC75AEABEB0F096320 /* Headers */,
+				A484A52A41C27869E4F3759B4386614E /* Sources */,
+				ECFD3E67F9CD1B5DB592DF135E46C06F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B15C8652C4FE10D7FE672921304A9BD0 /* PBXTargetDependency */,
 			);
 			name = "Pods-BHTencentOpenAPI_Tests";
 			productName = "Pods-BHTencentOpenAPI_Tests";
-			productReference = DEB17AE60149E01640C3D7747D6112F2 /* libPods-BHTencentOpenAPI_Tests.a */;
+			productReference = 402324ABD9A5A04A28505474E7201AD4 /* libPods-BHTencentOpenAPI_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FA32EEFF893ED7560E4C8E5EA2C94944 /* Pods-BHTencentOpenAPI_Example */ = {
+		6B8FCFB8274165860BD531E89D6EF4E4 /* BHTencentOpenAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09FEBE31B84F90FBBB9DE3949D0E66F3 /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Example" */;
+			buildConfigurationList = 548C703EB03313966D80785FE71C5782 /* Build configuration list for PBXNativeTarget "BHTencentOpenAPI" */;
 			buildPhases = (
-				234E92EC650FD4FA5A794A3B4B5F0730 /* Headers */,
-				11871D8614E0A02C7BCD29476A872AB5 /* Sources */,
-				CC6ACC39EF0A1384BC3932E7971C00EE /* Frameworks */,
+				7E4DF486BB81942B655BF6B564ED8635 /* Headers */,
+				5F3B6DE81F163EE7E370E1D2FF3BDA2C /* Sources */,
+				741C66AF8ADB9C2F6DDA807C35B92E5D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = BHTencentOpenAPI;
+			productName = BHTencentOpenAPI;
+			productReference = 4D401354FDAEEFE2CB3BC910B404E12E /* libBHTencentOpenAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C33CAF5A477CCDBF38DBC816AFDE52A /* Pods-BHTencentOpenAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2D3B84047742BA5A31FEFB63B03C7D /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Example" */;
+			buildPhases = (
+				BA46F5C149F30E3885882E9EB3130AE2 /* Headers */,
+				EA6D40B50D43628DCE712648A57C3E5B /* Sources */,
+				02ACB53656F21DF4F82EC834179C9A08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECD972430CC41E1E4680CB802D3B4E2 /* PBXTargetDependency */,
+			);
 			name = "Pods-BHTencentOpenAPI_Example";
 			productName = "Pods-BHTencentOpenAPI_Example";
-			productReference = 9ACD940F635AC25E387EDBBFDAC1D063 /* libPods-BHTencentOpenAPI_Example.a */;
+			productReference = 5A677E2B700D7BBFAF3321C387D0D5A8 /* libPods-BHTencentOpenAPI_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5B9E0294DCA4EDF9FB5644FB69980A67 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 553CA6256CCFB5A11250485F7B067034 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA32EEFF893ED7560E4C8E5EA2C94944 /* Pods-BHTencentOpenAPI_Example */,
-				E6CA0F2E4EF42FC9DA775122E1FF6D2E /* Pods-BHTencentOpenAPI_Tests */,
+				6B8FCFB8274165860BD531E89D6EF4E4 /* BHTencentOpenAPI */,
+				9C33CAF5A477CCDBF38DBC816AFDE52A /* Pods-BHTencentOpenAPI_Example */,
+				67165D27E5D18FDC1BA2888774DB369D /* Pods-BHTencentOpenAPI_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D3C80AD9B64652DD6A0F068D51B3341 /* Sources */ = {
+		5F3B6DE81F163EE7E370E1D2FF3BDA2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1500F3D685C505A5793C74A011B327 /* Pods-BHTencentOpenAPI_Tests-dummy.m in Sources */,
+				54499D0F28E90E4B73F679C238601A37 /* BHTencentOpenAPI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11871D8614E0A02C7BCD29476A872AB5 /* Sources */ = {
+		A484A52A41C27869E4F3759B4386614E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F69B37ECE03C775C02AEAEF912E97B2 /* Pods-BHTencentOpenAPI_Example-dummy.m in Sources */,
+				4C1641ED25CD197C14A1286B4EEAD1A1 /* Pods-BHTencentOpenAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6D40B50D43628DCE712648A57C3E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B9D0570EEEC751DF71BAF3C1A5D887 /* Pods-BHTencentOpenAPI_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5ECD972430CC41E1E4680CB802D3B4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BHTencentOpenAPI;
+			target = 6B8FCFB8274165860BD531E89D6EF4E4 /* BHTencentOpenAPI */;
+			targetProxy = 8A30FB20D614D13909FF3531414C2205 /* PBXContainerItemProxy */;
+		};
+		B15C8652C4FE10D7FE672921304A9BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BHTencentOpenAPI_Example";
+			target = 9C33CAF5A477CCDBF38DBC816AFDE52A /* Pods-BHTencentOpenAPI_Example */;
+			targetProxy = 662E88BD3AE1F266ECCCBB6478DA2CE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		3D7A0ABC13B6A7FF3C2C1596BD303F1C /* Release */ = {
+		2C9D4EF27879F7DDFE15C68A694B2598 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9627EFA61AA9690AFD2CF73F5A311A2 /* Pods-BHTencentOpenAPI_Tests.release.xcconfig */;
+			baseConfigurationReference = B4525BA04021A045A36F4B0F72F79A0F /* Pods-BHTencentOpenAPI_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -279,10 +366,56 @@
 			};
 			name = Release;
 		};
-		47037DE11A44FB435DE4CDFCE2BC3202 /* Debug */ = {
+		5D4854D7477FB00015280B15330AB806 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 909D293C83EB29809B3E0A0C53DB3121 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0931369FC2198297B7602C6ED0677142 /* Pods-BHTencentOpenAPI_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A29E53D42CC2059E7C894CBD4E20E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BHTencentOpenAPI/BHTencentOpenAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BHTencentOpenAPI;
+				PRODUCT_NAME = BHTencentOpenAPI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8485B73D78E92ECC4ACDAD8AAC48822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91E4D91CB57F52990937FC309C188A8 /* Pods-BHTencentOpenAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -299,7 +432,7 @@
 			};
 			name = Debug;
 		};
-		7BB10692F334521F8BF70F5E74177B51 /* Debug */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +464,65 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -356,19 +547,19 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		7EFB1E6A5D16B65F5D42B34049E140F5 /* Release */ = {
+		AA1B738E85C2EF0206AA239C87E21DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69773D1B65A72D2CE7D77FAC7B604E7A /* Pods-BHTencentOpenAPI_Example.release.xcconfig */;
+			baseConfigurationReference = C58129FE86F00FAD794A6752DBB87E68 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -381,124 +572,74 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6695FA58A4928BE1A7553514D5E3A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BHTencentOpenAPI/BHTencentOpenAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BHTencentOpenAPI;
+				PRODUCT_NAME = BHTencentOpenAPI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B0938BFDC462BE1C3CA7D55BA8829383 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6056557616808DBC15B699A1E88DC1C8 /* Pods-BHTencentOpenAPI_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D1E5A6C67D1E7E75DB2582F45F93782C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09FEBE31B84F90FBBB9DE3949D0E66F3 /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0938BFDC462BE1C3CA7D55BA8829383 /* Debug */,
-				7EFB1E6A5D16B65F5D42B34049E140F5 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		548C703EB03313966D80785FE71C5782 /* Build configuration list for PBXNativeTarget "BHTencentOpenAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BB10692F334521F8BF70F5E74177B51 /* Debug */,
-				D1E5A6C67D1E7E75DB2582F45F93782C /* Release */,
+				7A29E53D42CC2059E7C894CBD4E20E3C /* Debug */,
+				E6695FA58A4928BE1A7553514D5E3A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C31588E6BC9A37DA0705468769165694 /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Tests" */ = {
+		83847207273B0760B9D1A35910C0A6B9 /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47037DE11A44FB435DE4CDFCE2BC3202 /* Debug */,
-				3D7A0ABC13B6A7FF3C2C1596BD303F1C /* Release */,
+				AA1B738E85C2EF0206AA239C87E21DF6 /* Debug */,
+				2C9D4EF27879F7DDFE15C68A694B2598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2D3B84047742BA5A31FEFB63B03C7D /* Build configuration list for PBXNativeTarget "Pods-BHTencentOpenAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8485B73D78E92ECC4ACDAD8AAC48822B /* Debug */,
+				5D4854D7477FB00015280B15330AB806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
