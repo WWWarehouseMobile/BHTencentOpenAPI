@@ -1,26 +1,39 @@
 {
   "name": "BHTencentOpenAPI",
-  "version": "1.0.2",
-  "summary": "TencentOpenAPI.frameWork",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.3",
+  "summary": "TencentOpenAPI.framework",
+  "description": "自制 腾讯开发平台 pod库",
   "homepage": "https://github.com/WWWarehouseMobile/BHTencentOpenAPI",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Hjay": "18622995206@163.com"
+    "学宝": "zhanxuebao@outlook.com"
   },
   "source": {
     "git": "git@github.com:WWWarehouseMobile/BHTencentOpenAPI.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "BHTencentOpenAPI/Classes/*",
+  "public_header_files": "BHTencentOpenAPI/Classes/**/*.h",
   "ios": {
-    "vendored_frameworks": "BHTencentOpenAPI/Lib/TencentOpenAPI.framework"
+    "vendored_frameworks": "BHTencentOpenAPI/Lib/TencentOpenAPI.framework",
+    "libraries": [
+      "iconv",
+      "sqlite3",
+      "stdc++",
+      "z"
+    ]
   },
-  "frameworks": "SystemConfiguration"
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "UIKit",
+    "Foundation"
+  ]
 }

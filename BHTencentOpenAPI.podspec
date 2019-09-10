@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BHTencentOpenAPI'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'TencentOpenAPI.framework'
 
 
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.source_files = 'BHTencentOpenAPI/Classes/*'
   s.public_header_files = 'BHTencentOpenAPI/Classes/**/*.h'
   s.ios.vendored_frameworks = 'BHTencentOpenAPI/Lib/TencentOpenAPI.framework'
-  s.framework = 'SystemConfiguration'
-  s.xcconfig = { "OTHER_LDFLAGS" => "$(OTHER_LDFLAGS) -ObjC" }
+  s.framework = 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony', 'UIKit', 'Foundation'
+  s.ios.library = 'iconv', 'sqlite3', 'stdc++', 'z'
+  #s.xcconfig = { "OTHER_LDFLAGS" => "$(OTHER_LDFLAGS) -ObjC" }
 end

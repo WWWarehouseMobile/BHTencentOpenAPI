@@ -1,16 +1,21 @@
 //
 //  BHTencentOpenAPI.h
-//  Pods
+//  BHTencentOpenAPI
 //
-//  Created by 詹学宝 on 2019/9/9.
+//  Created by 詹学宝 on 2019/9/10.
 //
 
-#ifndef BHTencentOpenAPI_h
-#define BHTencentOpenAPI_h
+#import <Foundation/Foundation.h>
 
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/QQApiInterface.h>
 #import <TencentOpenAPI/sdkdef.h>
 #import <TencentOpenAPI/QQApiInterfaceObject.h>
 
-#endif /* BHTencentOpenAPI_h */
+NS_ASSUME_NONNULL_BEGIN
+
+@interface BHTencentOpenAPI : NSObject
+
+@end
+
+NS_ASSUME_NONNULL_END
