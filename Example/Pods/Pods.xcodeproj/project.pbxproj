@@ -370,6 +370,29 @@
 			};
 			name = Release;
 		};
+		2E464E5EB9BF40B6357E2A785D00E4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BHTencentOpenAPI/BHTencentOpenAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BHTencentOpenAPI;
+				PRODUCT_NAME = BHTencentOpenAPI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		5D4854D7477FB00015280B15330AB806 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0931369FC2198297B7602C6ED0677142 /* Pods-BHTencentOpenAPI_Example.release.xcconfig */;
@@ -391,29 +414,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		7A29E53D42CC2059E7C894CBD4E20E3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BHTencentOpenAPI/BHTencentOpenAPI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BHTencentOpenAPI;
-				PRODUCT_NAME = BHTencentOpenAPI;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		8485B73D78E92ECC4ACDAD8AAC48822B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -560,6 +560,28 @@
 			};
 			name = Debug;
 		};
+		96164167D9B80038C5452BE46636D960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BHTencentOpenAPI/BHTencentOpenAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BHTencentOpenAPI;
+				PRODUCT_NAME = BHTencentOpenAPI;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		AA1B738E85C2EF0206AA239C87E21DF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C58129FE86F00FAD794A6752DBB87E68 /* Pods-BHTencentOpenAPI_Tests.debug.xcconfig */;
@@ -581,30 +603,6 @@
 			};
 			name = Debug;
 		};
-		E6695FA58A4928BE1A7553514D5E3A25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C5AF8620B17FB0D1138E4F4691E75F /* BHTencentOpenAPI.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BHTencentOpenAPI/BHTencentOpenAPI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BHTencentOpenAPI;
-				PRODUCT_NAME = BHTencentOpenAPI;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -620,8 +618,8 @@
 		548C703EB03313966D80785FE71C5782 /* Build configuration list for PBXNativeTarget "BHTencentOpenAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A29E53D42CC2059E7C894CBD4E20E3C /* Debug */,
-				E6695FA58A4928BE1A7553514D5E3A25 /* Release */,
+				96164167D9B80038C5452BE46636D960 /* Debug */,
+				2E464E5EB9BF40B6357E2A785D00E4FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

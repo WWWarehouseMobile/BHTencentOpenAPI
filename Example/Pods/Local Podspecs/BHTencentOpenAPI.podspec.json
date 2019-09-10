@@ -35,5 +35,8 @@
     "CoreTelephony",
     "UIKit",
     "Foundation"
-  ]
+  ],
+  "xcconfig": {
+    "OTHER_LDFLAGS": "$(OTHER_LDFLAGS) -ObjC"
+  }
 }
