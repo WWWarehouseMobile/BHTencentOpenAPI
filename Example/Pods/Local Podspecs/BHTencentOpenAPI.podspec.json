@@ -1,6 +1,6 @@
 {
   "name": "BHTencentOpenAPI",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": "TencentOpenAPI.framework",
   "description": "自制 腾讯开发平台 pod库",
   "homepage": "https://github.com/WWWarehouseMobile/BHTencentOpenAPI",
@@ -13,20 +13,20 @@
   },
   "source": {
     "git": "git@github.com:WWWarehouseMobile/BHTencentOpenAPI.git",
-    "tag": "1.0.3"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "BHTencentOpenAPI/Classes/*",
-  "public_header_files": "BHTencentOpenAPI/Classes/**/*.h",
   "ios": {
     "vendored_frameworks": "BHTencentOpenAPI/Lib/TencentOpenAPI.framework",
     "libraries": [
       "iconv",
       "sqlite3",
       "stdc++",
-      "z"
+      "z",
+      "z.1.1.3"
     ]
   },
   "frameworks": [
@@ -35,8 +35,5 @@
     "CoreTelephony",
     "UIKit",
     "Foundation"
-  ],
-  "xcconfig": {
-    "OTHER_LDFLAGS": "$(OTHER_LDFLAGS) -ObjC"
-  }
+  ]
 }

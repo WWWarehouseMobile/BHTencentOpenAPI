@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BHTencentOpenAPI'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'TencentOpenAPI.framework'
 
 
@@ -26,6 +26,9 @@ Pod::Spec.new do |s|
   s.public_header_files = 'BHTencentOpenAPI/Classes/**/*.h'
   s.ios.vendored_frameworks = 'BHTencentOpenAPI/Lib/TencentOpenAPI.framework'
   s.framework = 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony', 'UIKit', 'Foundation'
-  s.ios.library = 'iconv', 'sqlite3', 'stdc++', 'z'
-  #s.xcconfig = { "OTHER_LDFLAGS" => "$(OTHER_LDFLAGS) -ObjC" }
+  s.ios.library = 'iconv', 'sqlite3', 'stdc++', 'z', 'z.1.1.3'
+  #s.xcconfig            = { "FRAMEWORK_SEARCH_PATHS" => "$(inherited)" }
+  #s.xcconfig = { "OTHER_LDFLAGS" => "$(OTHER_LDFLAGS) -fobjc-arc" }
+  #s.pod_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  #s.static_framework = true
 end
